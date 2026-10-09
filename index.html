@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Meu Streaming</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Cabeçalho / Banner principal -->
+  <header>
+    <h1>FlixFilmes</h1>
+    <p>O seu catálogo de séries e filmes</p>
+  </header>
+
+  <!-- Filtros / Botões simples -->
+  <div class="filtros">
+    <button onclick="filtrar('todos')">Todos</button>
+    <button onclick="filtrar('serie')">Séries</button>
+    <button onclick="filtrar('filme')">Filmes</button>
+  </div>
+
+  <!-- Lista de Capas -->
+  <main id="catalogo">
+    <!-- Os cards serão carregados pelo JS ou podem ficar no HTML -->
+    
+    <div class="card serie">
+      <img src="/img/image003_27cb3310.jpg" alt="Sou Luna">
+      <h3>Sou Luna: Nova Temporada</h3>
+      <span class="categoria">Série</span>
+    </div>
+
+    <div class="card filme">
+      <img src="/img/DVD_High_School_Musical.JPG" alt="High School Musical">
+      <h3>High School Musical</h3>
+      <span class="categoria">Filme</span>
+    </div>
+
+    <div class="card serie">
+      <img src="/img/violet.jpg" alt="Violetta">
+      <h3>Violetta</h3>
+      <span class="categoria">Série</span>
+    </div>
+
+    <div class="card filme">
+      <img src="img/Camp_Rock.JPG" alt="Camp Rock">
+      <h3>Camp Rock</h3>
+      <span class="categoria">Filme</span>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
